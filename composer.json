@@ -1,0 +1,21 @@
+{
+    "name": "appworksco/dalira",
+    "description": "Dalira is a PHP framework characterized by its lightweight nature, offering elegant syntax and rapid runtime for development tasks. The template is open-source, so you can modify it yourself.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Appworks Co.",
+            "email": "info.appworksco@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "5.0.2",
+        "twbs/bootstrap-icons": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dalira\\": "src/"
+        }
+    }
+}

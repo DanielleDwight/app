@@ -1,0 +1,16 @@
+footer {
+    position: relative;
+}
+
+.footer-label {
+    position: fixed;
+    bottom: 10px; /* Adjust as needed */
+    right: 10px;  /* Adjust as needed */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.footer-label img {
+    display: block;
+    max-width: 200px; /* Adjust based on your image size */
+    height: auto; /* Maintain aspect ratio */
+}
