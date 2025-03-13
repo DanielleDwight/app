@@ -11,12 +11,12 @@ include realpath(__DIR__ . '/app/layout/header.php');
 		
 		<div class="inputs">
 
-		<label  class="mail" for="email">Email
+		
 		</label>
 		<br>
 		<input class="e" type="text" id="email" name="Email" placeholder="Email">
 
-		<label  class="pass" for="password">Password
+		
 		</label>
 		<br>
 		<input class="p" type="password" id="password" name="Password" placeholder="Password">
@@ -67,9 +67,10 @@ include realpath(__DIR__ . '/app/layout/header.php');
 		}
 
 		.top{
-			height: 40vh;
-			width: 50vw;
-    transform: translate(50px,50px);
+			height: 50vh;
+			width: 28vw;
+    transform: translate(10px,250px);
+    border-radius: 30px;
 			background-color: grey;
 		}
 
@@ -77,29 +78,20 @@ include realpath(__DIR__ . '/app/layout/header.php');
 			transform: translate(5px,-10px);
 			font-size: 50px;
 		}
-		.mail{
-			text-align: center;
-			transform: translate(-140px,-250px);
-
-		}
-		.pass{
-			text-align: center;
-			transform: translate(-235px,-70px);
-
-		}
+		
 
 		.e{
-			width: 500px;
-			height: 50px;
+			width: 260px;
+			height: 30px;
 			position: absolute;
-			transform: translate(-10px,-200px);
+			transform: translate(115px,-300px);
 			border-radius: 10px;
 		}
 		.p{
-			width: 500px;
-			height: 50px;
+			width: 260px;
+			height: 30px;
 			position: absolute;
-			transform: translate(-10px,-18px);
+			transform: translate(115px,-220px);
 			border-radius: 10px;
 		}
 
